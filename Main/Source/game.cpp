@@ -386,7 +386,10 @@ truth game::IsQuestItem(item* it) //dont protect against null item* it may be a 
       || it->IsGoldenEagleShirt()
       || it->IsPetrussNut()
       || it->IsTheAvatar()
-      || it->IsEncryptedScroll();
+      || it->IsEncryptedScroll()
+      || It->IsMangoSeedling()
+      || It->IsWeepObsidian()
+      || It->IsNuke();
 }
 
 void game::PrepareToClearNonVisibleSquaresAround(v2 v2SqrPos) {
