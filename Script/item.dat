@@ -7777,6 +7777,7 @@ nuke /* materialcontainer-> */
   SecondaryMaterialConfig == URANIUM;
   AttachedGod = MORTIFER;
   Alias == "nuke";
+  DescriptiveInfo = "Stop worrying and love it.";
 }
 
 weepobsidian /* stone-> */
